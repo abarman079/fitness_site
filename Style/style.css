@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter_normal_font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: bold;
+}
+body {
+    max-width: 100%;
+}
+.web_color {
+    background-color: rgb(0, 0, 0);
+}
+/* header section */
+.head_bg {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(rgba(110, 110, 110, 0.397), rgba(0, 0, 0, 0.479));
+}
+.nav_title {
+    color: rgba(230, 83, 60, 1);
+    font-size: 2.5rem;
+}
+.nav_bar {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0 0 0;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px 10px;
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 25px;
+    margin-left: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top: 2px;
+}
+nav ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+    align-items: center;
+    line-height: 0;
+    margin: 0 60px 0 0;
+}
+nav ul li a:hover {
+
+    background-color: #E6533C;
+    padding: 20px 25px;
+    border-radius: 25px;    
+    transition: 0.5s;
+}
+#home {
+    background-color: rgba(230, 83, 60, 1);
+    padding: 20px 25px;
+    border-radius: 25px;
+    margin-left: -6px;
+    font-weight: 500;
+}
+#about_box {
+    margin-right: 30px;
+}
+.bar_icon {
+    display: none;
+}
+/* banner */
+.banner {
+    position: relative;
+}
+.banner_container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.banner_content {
+    width: 50%;
+    margin: 120px 0 0 0;
+
+}
+.banner_title {
+    font-size: 5rem;
+    color: white;
+    line-height: 6rem;
+    font-weight: 900;
+}
+.shape {
+    font-family: "Miama", sans-serif;
+    font-size: 11rem;
+    font-weight: 200;
+}
+.banner_img img {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.description {
+    font-size: 1rem;
+    color: white;
+    opacity: 50%;
+    line-height: 1.5rem;
+    margin-top: 10px;
+}
+.btn_primary {
+    background-color: rgba(230, 83, 60, 1);
+    padding: 15px 50px;
+    color: white;
+    font-size: 1rem;
+    margin-top: 30px;
+    border: 2px solid rgb(230, 83, 60);
+    font-weight: 600;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+.btn_general {
+    padding: 15px 50px;
+    color: white;
+    font-size: 1rem;
+    margin-top: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.video_tutorial {
+    background-color: rgba(63, 63, 63, 0.402);
+    backdrop-filter: blur(7px);
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    right: 27%;
+    border: 1px solid rgba(115, 115, 115, 0.418);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    gap: 15px;
+}
+.dot {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 80%;
+    background-color: red;
+    color: white;
+    font-size: 1.3rem;
+}
+#play_icon {
+    margin-right: 21px;
+    position: relative;
+    top: 8px;
+    left: 7px;
+}
+#play_icon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: rotate 0.5s;
+    
+}
+.card_des {
+    font-size: 1rem;
+    color: rgb(199, 199, 199);
+    margin: 5px 0;
+}
+.card_text {
+    font-size: 1.5rem;
+    color: white;
+}
+.workout_card {
+    background-color: rgba(63, 63, 63, 0.402);
+    backdrop-filter: blur(7px);
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    border: 1px solid rgba(115, 115, 115, 0.418);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    gap: 15px;
+}
+.workout_text {
+    font-size: 2.25rem;
+    color: white;
+
+}
+
+.workout_description {
+    font-size: 1rem;
+    color: rgb(199, 199, 199);
+    margin: 5px 0;
+}
