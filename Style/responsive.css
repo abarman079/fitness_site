@@ -158,4 +158,31 @@
         color: rgb(199, 199, 199);
         margin: 3% 0;
     }
+    .habit_card_container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .habit_text_container {
+        width: 80%;
+    }
+
+    .habit_card {
+        margin-top: 8px;
+    }
+
+    
+
+    .habit_text_container {
+        width: px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .habit_title {
+        font-size: 1.8rem;
+        color: white;
+    }
+    
 }
