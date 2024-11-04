@@ -184,5 +184,49 @@
         font-size: 1.8rem;
         color: white;
     }
-    
+    .extra_mile_box {
+        width: 85%;
+        height: 600px;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .extra_mile_img {
+        display: inline-grid;
+        overflow: hidden;
+        width: 287px;
+        height: 170px;
+        padding-top: 5%;
+        padding-bottom: 15%;
+        padding-left: 7%;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+
+    }
+
+    .extra_mile_img img {
+        width: 100%;
+        transform: scale(3);
+        transform-origin: 200px 60px;
+    }
+
+    .mile_title {
+        font-size: 2.2rem;
+        color: white;
+
+    }
+
+    .mile_description {
+        font-size: .8rem;
+        color: white;
+        opacity: 50%;
+        margin-top: 10px;
+    }
+
+    .extra_mile_text {
+        width: 100%;
+        margin-left: -5px;
+
+    }
 }

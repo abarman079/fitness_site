@@ -265,3 +265,51 @@ nav ul li a:hover {
     font-size: 1.2rem;
 }
 /* Habit part ends here */
+
+
+/* Extra Mile starts here */
+.extra_mile_box {
+    width: 80%;
+    height: 400px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 0 auto;
+    padding: 30px;
+}
+
+.mile_title {
+    font-size: 3.5rem;
+    color: white;
+
+}
+
+.mile_description {
+    font-size: 1rem;
+    color: white;
+    opacity: 50%;
+    line-height: 1.5rem;
+    margin-top: 10px;
+}
+
+.extra_mile_img {
+    display: inline-grid;
+    overflow: hidden;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.extra_mile_img img {
+    width: 100%;
+    transform: scale(3);
+    transform-origin: 280px 60px;
+}
+
+.extra_mile_text {
+    width: 40%;
+    margin: auto 0 auto 50px;
+
+}
+/* Extra mile ends here */
